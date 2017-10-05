@@ -1,0 +1,245 @@
+.event-details-wrapper
+	height: 550px
+	background: $offset-white
+	padding-top: 5px
+
+	.back-to-home
+		height: 50px
+		display: flex
+		align-items: center
+		padding: 5px 20px 5px 20px
+		margin-bottom: 0
+
+		a
+			text-decoration: none
+			color: $secondary-blue
+			font-family: "affogato-med"
+
+		i.material-icons
+			margin-right: 10px
+
+		p
+			margin: 0px
+			float: right
+			font-size: 13pt
+
+
+	.details-content
+		height: 450px
+		padding: 0 40px
+
+		.details-top-content
+			height: 110px
+			margin-bottom: 20px
+
+			h2
+				font-family: "affogato-bold"
+				font-size: 22pt
+				color: $secondary-blue
+				margin: 0
+
+			.details-top-host
+				height: 40px
+				display: flex
+				align-items: center
+				justify-content: space-between
+
+				strong
+					color: $offset-black
+
+				p
+					font-family: "affogato-reg"
+					font-size: 12pt
+					color: $grey
+
+				a
+					font-family: "affogato-med"
+					color: $secondary-blue
+					text-decoration: none
+
+	img
+		height: 200px
+		width: 100%
+		box-shadow: $box-shadow 0px 3px 15px
+
+
+	.route-details-wrapper
+		height: 50px
+		padding: 5px 0
+		margin-bottom: 20px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		font-family: "affogato-reg"
+		font-size: 11pt
+		color: $grey
+
+		img
+			height: 32px
+			width: 32px
+			box-shadow: none
+
+
+	a
+		text-decoration: none
+
+	.more-info
+		text-align: center
+		height: 50px
+
+		p
+			margin: 0
+			font-family: "affogato-reg"
+			color: $grey
+
+		i.material-icons
+			color: $grey
+
+
+#more-event-info
+	height: auto
+	padding: 20px 20px
+
+	.attending
+		height: 150px
+		font-family: "affogato-med"
+		color: $grey
+		font-size: 10pt
+		text-align: center
+		padding: 10px
+
+		p
+			margin-bottom: 40px
+
+		.option-wrapper
+			height: 10px
+			margin-bottom: 40px
+
+		a
+			color: $offset-white
+			padding: 10px 80px
+			background:
+				image: url('../img/gradient.png')
+				repeat: no-repeat
+				position: center
+				size: cover
+			border-radius: 50px
+			text-decoration: none
+			z-index: 9999
+			height: 30px
+			box-shadow: $box-shadow 0px 3px 15px
+
+
+	.description
+		height: 170px
+		background: #FFFFFF
+		box-shadow: #F0F0F0 0px 3px 14px 6px
+		padding: 20px
+		margin-bottom: 50px
+
+		p
+			font-family: "affogato-reg"
+			font-size: 11pt
+			color: $grey
+
+	h3
+		font-family: "affogato-med"
+		font-size: 16pt
+		color: $secondary-blue
+		margin: 0
+
+	.comment-section
+		height: auto
+		background: #FFFFFF
+		box-shadow: #F0F0F0 0px 3px 14px 6px
+		padding: 20px
+
+		p
+			font-family: "affogato-reg"
+			font-size: 11pt
+			color: $offset-black
+			margin-bottom: 30px
+
+		form
+			height: 200px
+			border-bottom: 1px solid #E3E3E3
+
+		textarea
+			height: 70px
+			width: 280px
+			border: 1px solid #E0E0E0
+			padding: 5px
+			font-size: 11pt
+			margin-bottom: 20px
+			overflow: auto
+			font-family: "affogato-reg"
+			resize: none
+			color: $offset-black
+
+			&:focus
+				outline: none
+
+		textarea::-webkit-input-placeholder
+			font-size: 11pt
+			font-weight: 400
+			color: #B7BCC6
+		textarea:-moz-placeholder
+			font-size: 11pt
+			font-weight: 400
+			color: #B7BCC6
+		textarea::-moz-placeholder
+			font-size: 11pt
+			font-weight: 400
+			color: #B7BCC6
+		textarea:-ms-input-placeholder
+			font-size: 11pt
+			font-weight: 400
+			color: #B7BCC6
+
+
+		input
+			&[type="submit"]
+				height: 50px
+				width: 50px
+				border-radius: 50px
+				border: none
+				outline: none
+				float: right
+				background:
+					image: url('../img/send.png')
+					repeat: no-repeat
+					position: center
+					size: 50px
+				box-shadow: $box-shadow 0px 3px 15px
+
+
+		.comment
+			height: 150px
+			border-bottom: 1px solid #E3E3E3
+			padding: 10px
+
+			.comment-top
+				height: 50px
+				display: flex
+				align-items: center
+				justify-content: space-between
+
+				img
+					height: 48px
+					width: 48px
+					border-radius: 50px
+					box-shadow: #D6D2D2 0px 3px 15px
+
+				a
+					text-decoration: none
+
+				h4
+					margin: 0
+					font-family: "affogato-bold"
+					font-size: 15pt
+					color: $secondary-blue
+
+				p
+					margin: 0
+					font-size: 10pt
+					color: $offset-black

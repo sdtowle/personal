@@ -1,0 +1,75 @@
+#search-container
+	background: $offset-white
+
+	.header
+		height: 120px
+		background:
+			image: url('../img/gradient.png')
+			repeat: no-repeat
+			position: center
+			size: cover
+		box-shadow: #1f1f1f 0px 0px 20px
+		padding: 20px
+
+		i.material-icons
+			color: $offset-white
+			font-size: 28px
+
+		form
+			height: 50px
+			width: 300px
+			display: flex
+			justify-content: space-between
+			align-items: center
+
+		input
+			height: 40px
+			width: 220px
+			border: none
+			border-bottom: 1px solid $offset-white
+			outline: none
+			background: none
+			margin-top: 10px
+			font-family: "affogato-reg"
+			color: $offset-white
+			font-size: 11pt
+
+
+			&[type="submit"]
+				height: 24px
+				width: 24px
+				border: none
+				outline: none
+				float: right
+				background:
+					image: url('../img/search.svg')
+					repeat: no-repeat
+					position: center
+					size: 24px
+
+		input::-webkit-input-placeholder
+			font-family: "affogato-reg"
+			font-size: 11pt
+			font-weight: 400
+			color: $offset-white
+		input:-moz-placeholder
+			font-family: "affogato-reg"
+			font-size: 11pt
+			font-weight: 400
+			color: $offset-white
+		input::-moz-placeholder
+			font-family: "affogato-reg"
+			font-size: 11pt
+			font-weight: 400
+			color: $offset-white
+		input:-ms-input-placeholder
+			font-family: "affogato-reg"
+			font-size: 11pt
+			font-weight: 400
+			color: $offset-white
+
+	p
+		font-family: "affogato-reg"
+		font-size: 12pt
+		color: $offset-white
+		opacity: .5
