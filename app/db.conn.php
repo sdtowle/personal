@@ -1,6 +1,6 @@
 <?php
 
-    $conn = mysqli_connect('localhost','unn_w14013358','9KNRUSV7','unn_w14013358');
+    $conn = mysqli_connect('localhost','USERNAME','PASSWORD','USERNAME');
     if (mysqli_connect_errno()) {
        echo "<p>Connection failed:".mysqli_connect_error()."</p>\n";
        mysqli_close($conn);
